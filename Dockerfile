@@ -10,3 +10,4 @@ COPY --chown=sage:sage . ${HOME}
 
 # Install this package and dependencies
 RUN sage -pip install uofsc_calculus_labs
+
